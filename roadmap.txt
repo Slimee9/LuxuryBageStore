@@ -1,0 +1,130 @@
+test@test.com
+test
+1] usermodel
+ full name -s
+ email -s
+ password -s
+ cart - array
+ isadmin - boolean
+ orders - array
+ contact - number
+ pic - bd
+
+
+2]product
+ image
+ name
+ price
+ discount
+ bgcolor
+ panelcolor
+ textcolor
+
+----------------------------
+3] 
+ 1-signup or login
+ 2-shop
+ 3-/user/cart - [user cart]
+ 4-/admin - [admin panel]
+ 5-/owner/products -> [show all products]
+ 6-/owner/admin -> [show admin panel to create product]
+
+--------------
+[ COLOR -
+1]BROWN
+TEXT: 774F3D
+PANEL: DEBEAE
+BG-COLOR : F4DDD2
+
+2]LIGHTBLUE
+TEXT 48606E
+PANEL D3E4EE
+BGCOLOR F3F8FB
+
+3]KHAAKI BROWN
+TEXT 5F4A30
+PANEL C58B095
+BGCOLOR DED0BF
+
+4]PINK
+TEXT 816264
+PANEL E3C4C6
+BGCOLOR F4E0E1
+
+5]White
+TEXT 717171
+PANEL EBEBEB
+BGCOLOR FBFBFB
+]
+------------------------------------------------------------------------------------------------------------------
+Full Stack Project: Luxury Brand Bag E-Commerce Platform
+Project Title: LuxuryBagStore - A Luxury Brand Bag E-Commerce Platform
+
+Overview:
+Developed a full-stack luxury brand e-commerce platform for high-end bags, featuring user authentication, product browsing, shopping cart functionality, and a secure checkout process. The platform is designed with a focus on delivering a premium shopping experience, leveraging modern front-end and back-end technologies for seamless user interaction and robust backend operations.
+
+Key Features:
+User Authentication & Authorization:
+
+Implemented JWT-based authentication for user login, registration, and session management.
+Admin and user roles for managing products and purchases.
+Integrated social login options (Google, Facebook).
+Product Catalog & Search:
+
+Developed dynamic product listings with filters for price range, brand, and style.
+Product details pages with high-resolution images, detailed descriptions, and customer reviews.
+Full-text search functionality with autocomplete for quick product discovery.
+Shopping Cart & Wishlist:
+
+Users can add products to a shopping cart or wishlist.
+Developed a persistent cart feature, where items remain in the cart even after logging out.
+Payment Integration:
+
+Integrated Stripe API for secure payment processing.
+Implemented order tracking and invoice generation post-purchase.
+Admin Panel:
+
+Created an admin dashboard to manage product inventory, view sales analytics, and handle customer queries.
+Role-based access to update or delete products, manage user accounts, and process returns or cancellations.
+Responsive Design:
+
+Built using Tailwind CSS to ensure the platform is fully responsive and optimized for both mobile and desktop devices.
+Ensured cross-browser compatibility for a consistent user experience.
+SEO & Performance Optimization:
+
+Optimized for SEO with dynamic meta tags and structured data for better search engine ranking.
+Improved site speed using lazy loading of images, efficient query handling, and caching.
+Tech Stack:
+Front-end:
+
+React.js with hooks and context API for state management.
+Tailwind CSS for modern, responsive UI design.
+EJS templates for server-side rendering (for some static pages).
+Back-end:
+
+Node.js with Express.js for building RESTful APIs.
+MongoDB with Mongoose for handling the database and product catalog.
+JWT for secure authentication and session management.
+Stripe API for handling payments.
+Tools & Libraries:
+
+Nodemailer for sending transactional emails (order confirmation, password reset).
+Cloudinary for image storage and optimization.
+Passport.js for social login integration.
+DevOps:
+
+Docker for containerization and deployment in a cloud environment.
+CI/CD pipeline set up with GitHub Actions for continuous integration and deployment.
+AWS S3 for static file storage (product images).
+Heroku for hosting the application.
+Responsibilities:
+Designed the database schema and implemented REST APIs to handle user management, product inventory, and order tracking.
+Developed user authentication, session management, and authorization using JWT.
+Integrated payment processing with Stripe and implemented order management workflows.
+Built responsive UI components using Tailwind CSS and React.js to ensure a smooth, premium user experience.
+Set up Docker for containerization and used CI/CD pipelines for automated deployment to Heroku.
+GitHub Link:
+LuxuryBagStore GitHub Repository
+
+This project showcases my skills in building scalable, secure, and responsive full-stack applications, with a focus on delivering a high-end user experience for an e-commerce platform.
+
